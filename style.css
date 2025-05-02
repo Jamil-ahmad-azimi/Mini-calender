@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e1f36, #101126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .calendar {
+    display: flex;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+
+  .left {
+    background-color: white;
+    color: black;
+    padding: 30px 40px;
+    text-align: center;
+  }
+
+  .left .day {
+    font-size: 64px;
+    font-weight: bold;
+  }
+
+  .left .weekday {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .right {
+    background-color: #ff3e00;
+    color: white;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .right .month {
+    font-size: 24px;
+  }
+
+  .right .year {
+    font-size: 20px;
+    margin-top: 5px;
+  }
